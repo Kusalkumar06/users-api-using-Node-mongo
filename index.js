@@ -45,3 +45,5 @@ app.post('/users',async (req,res) => {
 app.listen(5000,()=>{
     console.log("Server started at the server 5000")
 })
+
+module.exports = app;
